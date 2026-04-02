@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="movies.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Movie Search</h1>
+        <div class="search-area">
+            <input type="text" id="search-input" placeholder="Search for a movie...">
+            <button id="search-btn">Search</button>
+        </div>
+        <div id="results">
+
+        </div>
+    </div>
+</body>
+</html>
+```
+
+**Your only task for today:**
+
+When the button is clicked, make a fetch request to this URL:
+```
+https://www.omdbapi.com/?t=inception&apikey=YOURKEY
